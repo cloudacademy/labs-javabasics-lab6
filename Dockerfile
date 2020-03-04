@@ -1,3 +1,3 @@
 FROM cloudacademydevops/ide:java11
-WORKDIR /root/lab/
+WORKDIR /home/theia/lab
 COPY lab ./

@@ -1,4 +1,4 @@
-FROM docker.io/theiaide/theia-java:latest
+FROM cloudacademydevops/ide:java11
 USER root
 WORKDIR /root/lab
 COPY lab ./

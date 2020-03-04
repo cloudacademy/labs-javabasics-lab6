@@ -1,4 +1,6 @@
 FROM cloudacademydevops/ide:java11
-WORKDIR /home/theia/lab
+USER root
+WORKDIR /root/lab
 COPY lab ./
-RUN sudo chown -R theia:theia .
+CMD [ "-f", "/dev/null" ]
+ENTRYPOINT [ "tail" ]
